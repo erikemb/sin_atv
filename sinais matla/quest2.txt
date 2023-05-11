@@ -1,0 +1,12 @@
+close all
+f=10;
+overSampRate=30;
+fs=overSampRate*f ;
+noyl = 5;
+t=0:1/fs:nCyl+1/f;
+x=sin(2+pi*+f*t);
+figure
+plot(t,x);
+title(['Seno f=", numastr(f), 'Hz'1);
+xlabel (*Tempo(s)');
+ylabel ('Amplitude');

@@ -1,0 +1,35 @@
+figure;
+for i = 1:5
+    N =i; ZOrdem da série
+    Fs = 8192; %Freq de amostragem
+    t = linspace(0,1-1/8192,Fs);
+    Gabriel Barsi Haberfeld DFE 5
+    f=2;
+    amp = 1;
+    subplot(3,2,N) º
+    h=plot (NaN,NaN);
+    tt = sprintf (*Ordem Zd',N);
+    title(tt),axis([0O 1 -0.2 1.2))
+    res = amp/2;
+    for k=1:N
+        res = res - (amp/(k*pi))*sin(2+pi*k*f+t);
+        set(h,'XData',t,'YData',res);
+        %pause(0.1)
+    end
+end
+
+N = 500; %Ordem da série
+Fs = 8192; %Freq de amostragem
+t = linspace(0,1-1/8192,Fs);
+f=2;
+amp = 1;
+subplot(3,2,6)
+h=plot (NaN,NaN) ;
+tt = sprintf(*Ordem %d',N);
+title(tt),axis([O 1 -0.2 1.2))
+res = amp/2;
+for k=1:N
+    res = res - (amp/(k*pi))*sin(2+pi+k+f*+t);
+    set(h,'XData',t,'YData',res);
+    %pause(0.1)
+end
